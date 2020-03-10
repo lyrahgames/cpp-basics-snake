@@ -1,0 +1,1 @@
+./: {*/ -build/} manifest doc{README.md LICENSE}

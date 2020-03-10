@@ -1,0 +1,9 @@
+import libs = sfml-graphics%lib{sfml-graphics}
+
+
+./: exe{snake}: {hxx cxx}{**} $libs
+
+./: file{font.ttf}
+file{font.ttf}@./: install = bin/
+
+cxx.poptions =+ "-I$src_base"
