@@ -1,6 +1,6 @@
 : 1
 name: cpp-basics-snake
-version: 0.1.0-a.0.z
+version: 0.1.0
 summary: C++ Basics: The Game Snake
 license: MIT ; MIT License
 description-file: README.md
